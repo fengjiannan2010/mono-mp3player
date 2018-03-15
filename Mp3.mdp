@@ -1,0 +1,172 @@
+<Project name="Mp3" fileversion="2.0" newfilesearch="OnLoadAutoInsert" language="C#" clr-version="Net_1_1" ctype="DotNetProject">
+  <Configurations active="Debug">
+    <Configuration name="Debug" ctype="DotNetProjectConfiguration">
+      <Output directory="./bin/Debug" assembly="Mp3" />
+      <Build debugmode="True" target="WinExe" />
+      <Execution runwithwarnings="True" consolepause="False" runtime="MsNet" clr-version="Net_1_1" />
+      <CodeGeneration compiler="Mcs" warninglevel="4" optimize="True" unsafecodeallowed="False" generateoverflowchecks="True" mainclass="Mp3.MainClass" generatexmldocumentation="False" win32Icon="./" ctype="CSharpCompilerParameters" />
+    </Configuration>
+    <Configuration name="Release" ctype="DotNetProjectConfiguration">
+      <Output directory="./bin/Release" assembly="Mp3" />
+      <Build debugmode="True" target="WinExe" />
+      <Execution runwithwarnings="True" consolepause="False" runtime="MsNet" clr-version="Net_1_1" />
+      <CodeGeneration compiler="Mcs" warninglevel="0" optimize="True" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="Mp3.MainClass" generatexmldocumentation="False" win32Icon="./" ctype="CSharpCompilerParameters" />
+    </Configuration>
+  </Configurations>
+  <Contents>
+    <File name="./gtk-gui/gui.stetic" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="./gtk-gui/generated.cs" subtype="Code" buildaction="Compile" />
+    <File name="./MainWindow.cs" subtype="Code" buildaction="Compile" />
+    <File name="./Main.cs" subtype="Code" buildaction="Compile" />
+    <File name="./AssemblyInfo.cs" subtype="Code" buildaction="Compile" />
+    <File name="./Library.cs" subtype="Code" buildaction="Compile" />
+    <File name="./Song.cs" subtype="Code" buildaction="Compile" />
+    <File name="./Collection.cs" subtype="Code" buildaction="Compile" />
+    <File name="./gtk-gui/objects.xml" subtype="Code" buildaction="EmbedAsResource" />
+    <File name="./bin/Debug/01 Riders On The Storm.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/02 Light My Fire.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/03 Love Me Two Times.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/04 Roadhouse Blues (Live Version).mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/05 Strange Days.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/06 Break On Through (To The Other Si.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/07 Five To One.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/08 Moonlight Drive.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/09 Alabama Song (Whiskey Bar).mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/10 Love Her Madly.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/11 People Are Strange.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/12 Touch Me.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/13 Backdoor Man.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/14 The Unknown Soldier.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/15 L.A. Woman.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/16 Hello I Love You.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/17 The End.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/murloc.wav" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/song.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/02 - Cypress Hill - How I Could Just Kill A Man.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Everlast - Then You Might Know What Its Like.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Little T and One Track Mike - Shaniqua.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/NWA - Fuck Tha Police.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against The Machine -  -  -  - Fuck The Police.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/01 Testify.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/02 Guerrilla Radio.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/03 Calm Like A Bomb.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/04 Mic Check.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/05 Sleep Now In The Fire.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/06 Born Of A Broken Man.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/07 Born As Ghosts.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/08 Maria.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/09 Voice Of The Voiceless.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/10 New Millennium Homes.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/11 Ashes In The Fall.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/12 War Within A Breath.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/13 No Shelter (Australia Only Bonust.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/01 01-People of the Sun.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/02 02-Bulls on Parade.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/03 03-Vietnow.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/04 04-Revolver.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/05 05-Snake Charmer.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/06 06-Tire Me.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/07 07-Down Rodeo.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/08 08-Without a Face.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/09 09-Wind Below.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/10 10-Roll Right.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Evil Empire/11 11-Year of Tha Boomerang.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/01 Bulls On Parade.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/02 Bullet In The Head.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/03 Born Of A Broken Man.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/04 Killing In The Name.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/05 Calm Like A Bomb.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/06 Testify.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/07 Bombtrack.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/08 War Within A Breath.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/09 I`m Housin`.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/10 Sleep Now In The Fire.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/11 People Of The Sun.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/12 Guerrilla Radio.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/13 Kick Out The Jams.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/14 Know Your Enemy.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/15 No Shelter.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Live at the Grand Olympic Auditorium/16 Freedom.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/01 Bombtrack.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/02 Killing In The Name.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/03 Take The Power Back.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/04 Settle For Nothing.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/05 Bullet In The Head.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/06 Know Your Enemy.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/07 Wake Up.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/08 Fistful Of Steel.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/09 Towership Rebellion.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Rage Against The Machine/10 Freedom.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/01 Microphone Fiend.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/02 Pistol Grip Pump.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/03 Kick Out the Jams.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/04 Renegades of Funk.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/05 Beautiful World.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/06 I'm Housin'.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/07 In My Eyes.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/08 How I Could Just Kill a Man.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/09 The Ghost of Tom Joad.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/10 Down on the Street.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/11 Street Fighting Man.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/Renegades/12 Maggie's Farm.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/01 Testify.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/02 Guerrilla Radio.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/03 Calm Like A Bomb.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/04 Mic Check.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/05 Sleep Now In The Fire.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/06 Born Of A Broken Man.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/07 Born As Ghosts.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/08 Maria.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/09 Voice Of The Voiceless.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/10 New Millennium Homes.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/11 Ashes In The Fall.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/12 War Within A Breath.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Rage Against the Machine/The Battle Of Los Angeles/13 No Shelter (Australia Only Bonust.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./PreferencesWindow.cs" subtype="Code" buildaction="Compile" />
+    <File name="./gtk-gui/Mp3.PreferencesWindow.cs" subtype="Code" buildaction="Compile" />
+    <File name="./bin/Debug/01 Bulls On Parade.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/Mp3.exe.mdb" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/01 The Shower Scene.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/02 Jude Law and a Semester Abroad.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/03 Sudden Death in Carolina.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/04 Mix Tape.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/05 Failure By Design.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/06 Last Chance to Lose Your Keys.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/07 Logan to Government Center.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/08 The No Seatbelt Song.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/09 Seventy Times 7.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/10 Secondary.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/11 Magazines.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/12 Soco Amaretto Lim.mp3" subtype="Code" buildaction="Nothing" />
+    <File name="./gtk-gui/MainWindow.cs" subtype="Code" buildaction="Compile" />
+    <File name="./bin/Debug/libgstreamersharpglue-0.10.a" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/libgstreamersharpglue-0.10.la" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/libgstreamersharpglue-0.10.so" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/libgstreamersharpglue-0.10.so.0" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Debug/libgstreamersharpglue-0.10.so.0.0.0" subtype="Code" buildaction="Nothing" />
+    <File name="./Playlist.cs" subtype="Code" buildaction="Compile" />
+    <File name="./bin/Release/Mp3.exe.mdb" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Release/libgstreamersharpglue-0.10.a" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Release/libgstreamersharpglue-0.10.la" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Release/libgstreamersharpglue-0.10.so" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Release/libgstreamersharpglue-0.10.so.0" subtype="Code" buildaction="Nothing" />
+    <File name="./bin/Release/libgstreamersharpglue-0.10.so.0.0.0" subtype="Code" buildaction="Nothing" />
+  </Contents>
+  <References>
+    <ProjectReference type="Gac" localcopy="True" refto="gtk-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="gdk-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="glib-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="pango-sharp, Version=2.8.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="gnome-sharp, Version=2.16.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <ProjectReference type="Gac" localcopy="True" refto="System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <ProjectReference type="Assembly" localcopy="True" refto="./bin/Debug/gstreamer-sharp.dll" />
+    <ProjectReference type="Gac" localcopy="True" refto="Mono.Data, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <ProjectReference type="Gac" localcopy="True" refto="Mono.Cairo, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <ProjectReference type="Gac" localcopy="True" refto="Mono.Posix, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+  </References>
+  <GtkDesignInfo partialTypes="True" isWidgetLibrary="True">
+    <ExportedWidgets>
+      <Widget>MainMp3Player</Widget>
+    </ExportedWidgets>
+  </GtkDesignInfo>
+</Project>
